@@ -232,11 +232,11 @@ img {
 /* Intro styles start*/
 
 .intro {
-    min-height: 150vh;
+    min-height: 110vh;
     background: url(../img/intro_bg-min.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
-    padding-bottom: 223px;
+    padding-bottom: 400px;
 }
 
 .intro__title {
@@ -773,6 +773,9 @@ img {
 /* Media start */
 
 @media screen and (max-width: 960px) {
+    .intro {
+        padding-bottom: 223px;
+    }
     .benefits {
         margin-bottom: 75px;
     }
@@ -918,6 +921,7 @@ img {
     }
     .intro {
         padding-top: 125px;
+        padding-bottom: 223px;
     }
     .intro__title {
         font-size: 32px;
